@@ -1,0 +1,386 @@
+\hypertarget{namespacepartie2}{}\doxysection{partie2 Namespace Reference}
+\label{namespacepartie2}\index{partie2@{partie2}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacepartie2_aa69a14dedbed56dc9502039d2f203fa6}{prod}} (\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}}, B)
+\item 
+def \mbox{\hyperlink{namespacepartie2_a7cc31484ef7fdfb5dee7e7e6b12c4344}{trans}} (\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}})
+\item 
+def \mbox{\hyperlink{namespacepartie2_a0e9291b4592db4e5b889eca05c2c6589}{conjugate\+\_\+gradient}} (\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}}, \mbox{\hyperlink{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}{b}}, \mbox{\hyperlink{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}{x}})
+\item 
+def \mbox{\hyperlink{namespacepartie2_a43b10cb136773085de959169429921ab}{triangular\+\_\+solve\+\_\+down}} (\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}}, \mbox{\hyperlink{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}{b}})
+\item 
+def \mbox{\hyperlink{namespacepartie2_aa4a3edd034a89cc10f00e6c6891679b2}{triangular\+\_\+solve\+\_\+up}} (\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}}, \mbox{\hyperlink{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}{b}})
+\item 
+def \mbox{\hyperlink{namespacepartie2_a12fe4291f2c75ca32c22e24c1855527f}{solve}} (\mbox{\hyperlink{namespacepartie2_a5f72d242832802ab8db0a4eb23390aad}{T}}, \mbox{\hyperlink{namespacepartie2_a40fe4a3776174a353737d0bede3dcbe0}{Tt}}, r)
+\item 
+def \mbox{\hyperlink{namespacepartie2_ac2309c2c0b56baa30bd7adaac39414eb}{conjugate\+\_\+gradient\+\_\+preconditioned}} (\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}}, \mbox{\hyperlink{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}{b}}, \mbox{\hyperlink{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}{x}})
+\item 
+def \mbox{\hyperlink{namespacepartie2_a30228ddfd9e4d38c1c2a935a925c5808}{test}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{namespacepartie2_a685e30dfe601f53c791ce6edcbaa6d48}{n}} = 10
+\begin{DoxyCompactList}\small\item\em End of program\textquotesingle{}s function. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}} = generate\+\_\+\+S\+P\+D\+SM(\mbox{\hyperlink{namespacepartie2_a685e30dfe601f53c791ce6edcbaa6d48}{n}},20)
+\item 
+\mbox{\hyperlink{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}{b}} = np.\+ones((\mbox{\hyperlink{namespacepartie2_a685e30dfe601f53c791ce6edcbaa6d48}{n}},1))
+\item 
+\mbox{\hyperlink{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}{x}} = np.\+zeros((\mbox{\hyperlink{namespacepartie2_a685e30dfe601f53c791ce6edcbaa6d48}{n}},1))
+\item 
+def \mbox{\hyperlink{namespacepartie2_a78d20d00853f163bfab7e0615a4add69}{sol}} = \mbox{\hyperlink{namespacepartie2_a0e9291b4592db4e5b889eca05c2c6589}{conjugate\+\_\+gradient}}(\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}},\mbox{\hyperlink{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}{b}},\mbox{\hyperlink{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}{x}})
+\item 
+def \mbox{\hyperlink{namespacepartie2_aee4d780da4fa20694eab903f7c1e4c44}{sol2}} = \mbox{\hyperlink{namespacepartie2_ac2309c2c0b56baa30bd7adaac39414eb}{conjugate\+\_\+gradient\+\_\+preconditioned}}(\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}},\mbox{\hyperlink{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}{b}},\mbox{\hyperlink{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}{x}})
+\item 
+int \mbox{\hyperlink{namespacepartie2_a87f5269f25a7f574674071c022218adf}{threshold}} = 10$\ast$$\ast$(-\/6)
+\begin{DoxyCompactList}\small\item\em Tests. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacepartie2_a7a88fc158cf782dfa58c3e77372eb262}{res}} = \mbox{\hyperlink{namespacepartie2_aa69a14dedbed56dc9502039d2f203fa6}{prod}}(\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}},\mbox{\hyperlink{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}{x}})
+\item 
+int \mbox{\hyperlink{namespacepartie2_ad6eb0048e9d094e53a3928ea11521d97}{flag}} = 0
+\item 
+\mbox{\hyperlink{namespacepartie2_a5f72d242832802ab8db0a4eb23390aad}{T}} = facto\+\_\+cholesky\+\_\+incomplete(\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}})
+\item 
+def \mbox{\hyperlink{namespacepartie2_a40fe4a3776174a353737d0bede3dcbe0}{Tt}} = \mbox{\hyperlink{namespacepartie2_a7cc31484ef7fdfb5dee7e7e6b12c4344}{trans}}(\mbox{\hyperlink{namespacepartie2_a5f72d242832802ab8db0a4eb23390aad}{T}})
+\item 
+\mbox{\hyperlink{namespacepartie2_a677564749e09ea01212ebd7c7a7d58d0}{y1}}
+\item 
+\mbox{\hyperlink{namespacepartie2_a6d130513dac1164ac9eced48e3bd7691}{y2}}
+\item 
+\mbox{\hyperlink{namespacepartie2_a3bb433cc4df05b6536dbfda165d1a742}{fig}} = plt.\+subplot()
+\item 
+\mbox{\hyperlink{namespacepartie2_adb6938f7bce3475d2f6820f5d1afaa2b}{linestyle}}
+\item 
+\mbox{\hyperlink{namespacepartie2_a91a96ed63e6324931cd13ac9a3fde7c2}{label}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacepartie2_a0e9291b4592db4e5b889eca05c2c6589}\label{namespacepartie2_a0e9291b4592db4e5b889eca05c2c6589}} 
+\index{partie2@{partie2}!conjugate\_gradient@{conjugate\_gradient}}
+\index{conjugate\_gradient@{conjugate\_gradient}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{conjugate\_gradient()}{conjugate\_gradient()}}
+{\footnotesize\ttfamily def partie2.\+conjugate\+\_\+gradient (\begin{DoxyParamCaption}\item[{}]{A,  }\item[{}]{b,  }\item[{}]{x }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}conjugate_gradient(...)
+
+returns the solution to the equation Ax = b
+
+Parameters
+----------
+
+A : positive definite square matrix
+b : vector solution of the equation Ax = b
+x : initial estimation of the searched vector
+
+Returns
+-------
+
+out : The vector x, solution to the equation Ax = b
+
+Time complexity
+---------------
+
+inferior to n**3
+
+Space complexity
+----------------
+
+O(n)\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacepartie2_ac2309c2c0b56baa30bd7adaac39414eb}\label{namespacepartie2_ac2309c2c0b56baa30bd7adaac39414eb}} 
+\index{partie2@{partie2}!conjugate\_gradient\_preconditioned@{conjugate\_gradient\_preconditioned}}
+\index{conjugate\_gradient\_preconditioned@{conjugate\_gradient\_preconditioned}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{conjugate\_gradient\_preconditioned()}{conjugate\_gradient\_preconditioned()}}
+{\footnotesize\ttfamily def partie2.\+conjugate\+\_\+gradient\+\_\+preconditioned (\begin{DoxyParamCaption}\item[{}]{A,  }\item[{}]{b,  }\item[{}]{x }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}conjugate_gradient_preconditioned(...)
+
+returns the solution to the equation Ax = b
+
+Parameters
+----------
+
+A : positive definite square matrix
+b : vector solution of the equation Ax = b
+x : initial estimation of the searched vector
+
+Returns
+-------
+
+out : The vector x, solution to the equation Ax = b
+
+Time complexity
+---------------
+
+inferior to n**3
+
+Space complexity
+----------------
+
+O(n**2)\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacepartie2_aa69a14dedbed56dc9502039d2f203fa6}\label{namespacepartie2_aa69a14dedbed56dc9502039d2f203fa6}} 
+\index{partie2@{partie2}!prod@{prod}}
+\index{prod@{prod}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{prod()}{prod()}}
+{\footnotesize\ttfamily def partie2.\+prod (\begin{DoxyParamCaption}\item[{}]{A,  }\item[{}]{B }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}prod(...)
+
+returns the transpose of a matrix.
+
+Parameters
+----------
+
+A : a matrix of dimension n,m
+B : a matrix of dimension n',m'
+
+
+Returns
+-------
+
+out : The product of the two given matrix
+
+Time complexity
+---------------
+
+O(n*m')
+
+Space complexity
+----------------
+
+O(1)\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacepartie2_a12fe4291f2c75ca32c22e24c1855527f}\label{namespacepartie2_a12fe4291f2c75ca32c22e24c1855527f}} 
+\index{partie2@{partie2}!solve@{solve}}
+\index{solve@{solve}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{solve()}{solve()}}
+{\footnotesize\ttfamily def partie2.\+solve (\begin{DoxyParamCaption}\item[{}]{T,  }\item[{}]{Tt,  }\item[{}]{r }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}solve(...)
+
+returns the solution x to the equation T*Tt*x = b
+
+Parameters
+----------
+
+T : a lower triangular matrix
+Tt : a upper triangular matrix
+b : vector solution of the equation T*Tt*x = b
+x : initial estimation of the searched vector
+
+Returns
+-------
+
+out : The vector x, solution to the equation T*Tt*x = b
+
+Time complexity
+---------------
+
+O(n**2)
+
+Space complexity
+----------------
+
+O(n)\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacepartie2_a30228ddfd9e4d38c1c2a935a925c5808}\label{namespacepartie2_a30228ddfd9e4d38c1c2a935a925c5808}} 
+\index{partie2@{partie2}!test@{test}}
+\index{test@{test}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{test()}{test()}}
+{\footnotesize\ttfamily def partie2.\+test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacepartie2_a7cc31484ef7fdfb5dee7e7e6b12c4344}\label{namespacepartie2_a7cc31484ef7fdfb5dee7e7e6b12c4344}} 
+\index{partie2@{partie2}!trans@{trans}}
+\index{trans@{trans}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{trans()}{trans()}}
+{\footnotesize\ttfamily def partie2.\+trans (\begin{DoxyParamCaption}\item[{}]{A }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}trans(...)
+
+returns the transpose of a matrix.
+
+Parameters
+----------
+
+A : a matrix
+
+Returns
+-------
+
+out : the transpose of the matrix
+
+Time complexity
+---------------
+
+O(1)
+
+Space complexity
+----------------
+
+O(1)\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacepartie2_a43b10cb136773085de959169429921ab}\label{namespacepartie2_a43b10cb136773085de959169429921ab}} 
+\index{partie2@{partie2}!triangular\_solve\_down@{triangular\_solve\_down}}
+\index{triangular\_solve\_down@{triangular\_solve\_down}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{triangular\_solve\_down()}{triangular\_solve\_down()}}
+{\footnotesize\ttfamily def partie2.\+triangular\+\_\+solve\+\_\+down (\begin{DoxyParamCaption}\item[{}]{A,  }\item[{}]{b }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}triangular_solve_down(...)
+
+returns the solution to the equation Ax = b where A is a lower triangular matrix
+
+Parameters
+----------
+
+A : a lower triangular matrix
+b : a column vector solution of the equation Ax = b
+
+Returns
+-------
+
+out : The vector x, solution to the equation Ax = b
+
+Time complexity
+---------------
+
+O(n**2)
+
+Space complexity
+----------------
+
+O(n)\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacepartie2_aa4a3edd034a89cc10f00e6c6891679b2}\label{namespacepartie2_aa4a3edd034a89cc10f00e6c6891679b2}} 
+\index{partie2@{partie2}!triangular\_solve\_up@{triangular\_solve\_up}}
+\index{triangular\_solve\_up@{triangular\_solve\_up}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{triangular\_solve\_up()}{triangular\_solve\_up()}}
+{\footnotesize\ttfamily def partie2.\+triangular\+\_\+solve\+\_\+up (\begin{DoxyParamCaption}\item[{}]{A,  }\item[{}]{b }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}triangular_solve_up(...)
+
+returns the solution to the equation Ax = b where A is a upper triangular matrix
+
+Parameters
+----------
+
+A : a upper triangular matrix
+b : a column vector solution of the equation Ax = b
+
+Returns
+-------
+
+out : The vector x, solution to the equation Ax = b
+
+Time complexity
+---------------
+
+O(n**2)
+
+Space complexity
+----------------
+
+O(n)\end{DoxyVerb}
+ 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}\label{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}} 
+\index{partie2@{partie2}!A@{A}}
+\index{A@{A}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{A}{A}}
+{\footnotesize\ttfamily partie2.\+A = generate\+\_\+\+S\+P\+D\+SM(\mbox{\hyperlink{namespacepartie2_a685e30dfe601f53c791ce6edcbaa6d48}{n}},20)}
+
+\mbox{\Hypertarget{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}\label{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}} 
+\index{partie2@{partie2}!b@{b}}
+\index{b@{b}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{b}{b}}
+{\footnotesize\ttfamily partie2.\+b = np.\+ones((\mbox{\hyperlink{namespacepartie2_a685e30dfe601f53c791ce6edcbaa6d48}{n}},1))}
+
+\mbox{\Hypertarget{namespacepartie2_a3bb433cc4df05b6536dbfda165d1a742}\label{namespacepartie2_a3bb433cc4df05b6536dbfda165d1a742}} 
+\index{partie2@{partie2}!fig@{fig}}
+\index{fig@{fig}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{fig}{fig}}
+{\footnotesize\ttfamily partie2.\+fig = plt.\+subplot()}
+
+\mbox{\Hypertarget{namespacepartie2_ad6eb0048e9d094e53a3928ea11521d97}\label{namespacepartie2_ad6eb0048e9d094e53a3928ea11521d97}} 
+\index{partie2@{partie2}!flag@{flag}}
+\index{flag@{flag}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{flag}{flag}}
+{\footnotesize\ttfamily int partie2.\+flag = 0}
+
+\mbox{\Hypertarget{namespacepartie2_a91a96ed63e6324931cd13ac9a3fde7c2}\label{namespacepartie2_a91a96ed63e6324931cd13ac9a3fde7c2}} 
+\index{partie2@{partie2}!label@{label}}
+\index{label@{label}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{label}{label}}
+{\footnotesize\ttfamily partie2.\+label}
+
+\mbox{\Hypertarget{namespacepartie2_adb6938f7bce3475d2f6820f5d1afaa2b}\label{namespacepartie2_adb6938f7bce3475d2f6820f5d1afaa2b}} 
+\index{partie2@{partie2}!linestyle@{linestyle}}
+\index{linestyle@{linestyle}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{linestyle}{linestyle}}
+{\footnotesize\ttfamily partie2.\+linestyle}
+
+\mbox{\Hypertarget{namespacepartie2_a685e30dfe601f53c791ce6edcbaa6d48}\label{namespacepartie2_a685e30dfe601f53c791ce6edcbaa6d48}} 
+\index{partie2@{partie2}!n@{n}}
+\index{n@{n}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{n}{n}}
+{\footnotesize\ttfamily int partie2.\+n = 10}
+
+
+
+End of program\textquotesingle{}s function. 
+
+Execution of all algorithms \mbox{\Hypertarget{namespacepartie2_a7a88fc158cf782dfa58c3e77372eb262}\label{namespacepartie2_a7a88fc158cf782dfa58c3e77372eb262}} 
+\index{partie2@{partie2}!res@{res}}
+\index{res@{res}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{res}{res}}
+{\footnotesize\ttfamily def partie2.\+res = \mbox{\hyperlink{namespacepartie2_aa69a14dedbed56dc9502039d2f203fa6}{prod}}(\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}},\mbox{\hyperlink{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}{x}})}
+
+\mbox{\Hypertarget{namespacepartie2_a78d20d00853f163bfab7e0615a4add69}\label{namespacepartie2_a78d20d00853f163bfab7e0615a4add69}} 
+\index{partie2@{partie2}!sol@{sol}}
+\index{sol@{sol}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{sol}{sol}}
+{\footnotesize\ttfamily def partie2.\+sol = \mbox{\hyperlink{namespacepartie2_a0e9291b4592db4e5b889eca05c2c6589}{conjugate\+\_\+gradient}}(\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}},\mbox{\hyperlink{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}{b}},\mbox{\hyperlink{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}{x}})}
+
+\mbox{\Hypertarget{namespacepartie2_aee4d780da4fa20694eab903f7c1e4c44}\label{namespacepartie2_aee4d780da4fa20694eab903f7c1e4c44}} 
+\index{partie2@{partie2}!sol2@{sol2}}
+\index{sol2@{sol2}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{sol2}{sol2}}
+{\footnotesize\ttfamily def partie2.\+sol2 = \mbox{\hyperlink{namespacepartie2_ac2309c2c0b56baa30bd7adaac39414eb}{conjugate\+\_\+gradient\+\_\+preconditioned}}(\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}},\mbox{\hyperlink{namespacepartie2_a0d0126b624b356015e4ad253e8b298fb}{b}},\mbox{\hyperlink{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}{x}})}
+
+\mbox{\Hypertarget{namespacepartie2_a5f72d242832802ab8db0a4eb23390aad}\label{namespacepartie2_a5f72d242832802ab8db0a4eb23390aad}} 
+\index{partie2@{partie2}!T@{T}}
+\index{T@{T}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{T}{T}}
+{\footnotesize\ttfamily partie2.\+T = facto\+\_\+cholesky\+\_\+incomplete(\mbox{\hyperlink{namespacepartie2_af34d59bfc5872db0681f54f3aa1696a0}{A}})}
+
+\mbox{\Hypertarget{namespacepartie2_a87f5269f25a7f574674071c022218adf}\label{namespacepartie2_a87f5269f25a7f574674071c022218adf}} 
+\index{partie2@{partie2}!threshold@{threshold}}
+\index{threshold@{threshold}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{threshold}{threshold}}
+{\footnotesize\ttfamily int partie2.\+threshold = 10$\ast$$\ast$(-\/6)}
+
+
+
+Tests. 
+
+\mbox{\Hypertarget{namespacepartie2_a40fe4a3776174a353737d0bede3dcbe0}\label{namespacepartie2_a40fe4a3776174a353737d0bede3dcbe0}} 
+\index{partie2@{partie2}!Tt@{Tt}}
+\index{Tt@{Tt}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{Tt}{Tt}}
+{\footnotesize\ttfamily def partie2.\+Tt = \mbox{\hyperlink{namespacepartie2_a7cc31484ef7fdfb5dee7e7e6b12c4344}{trans}}(\mbox{\hyperlink{namespacepartie2_a5f72d242832802ab8db0a4eb23390aad}{T}})}
+
+\mbox{\Hypertarget{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}\label{namespacepartie2_a9274de26d81b48ca005f02bacfa08818}} 
+\index{partie2@{partie2}!x@{x}}
+\index{x@{x}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily def partie2.\+x = np.\+zeros((\mbox{\hyperlink{namespacepartie2_a685e30dfe601f53c791ce6edcbaa6d48}{n}},1))}
+
+\mbox{\Hypertarget{namespacepartie2_a677564749e09ea01212ebd7c7a7d58d0}\label{namespacepartie2_a677564749e09ea01212ebd7c7a7d58d0}} 
+\index{partie2@{partie2}!y1@{y1}}
+\index{y1@{y1}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{y1}{y1}}
+{\footnotesize\ttfamily partie2.\+y1}
+
+\mbox{\Hypertarget{namespacepartie2_a6d130513dac1164ac9eced48e3bd7691}\label{namespacepartie2_a6d130513dac1164ac9eced48e3bd7691}} 
+\index{partie2@{partie2}!y2@{y2}}
+\index{y2@{y2}!partie2@{partie2}}
+\doxysubsubsection{\texorpdfstring{y2}{y2}}
+{\footnotesize\ttfamily partie2.\+y2}
+

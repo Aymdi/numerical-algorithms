@@ -1,0 +1,298 @@
+## Partie 2
+
+# Question 1
+
+# valeur écrite en dur
+# Condition d'arret à l'interieur de la boucle avec un break :(
+
+
+
+# Question 2
+
+# La difference avec la méthode précédente et que celle-ci est itérative. Cette difference permet un gain de complexité car il n'est pas nécéssaire de calculer tout les termes de la somme qui determine le résultat pour en avoir une bonne approximation.
+
+# La différence avec la méthode précédente est que pour la méthode de Cholesky, il suffisait de calculer les coeficients d'une matrice triangulaire T (n²-n*(n-1)/2 calculs) puis de résoudre deux systèmes à n lignes pour obtenir x.
+# Notre méthode est ici une approximation de x obtenue grâce à une somme qui tend vers ce x. Sur les grosses matrices, la méthode de cholesky peut s'avérer couteuse, e ton peut donc esperer obtenir une meilleur complexité avec la méthode des gradient conjugué si la précision demandés n'est pas trop élevée. vitesse de convergence = 1-2/k(A)
+
+
+
+
+## Question 3
+import numpy as np
+
+def prod(A,B) :
+    C = A.dot(B)
+    return C
+
+def trans(A) :
+    return A.transpose()
+
+
+def gradient_conj(A,b,x) :
+    r = b-prod(A,x)
+    p = r
+    rsold = prod(trans(r),r)
+
+    for i in range (1,10**6) :
+        Ap = prod(A,p)
+        alpha = rsold/(prod(trans(p),Ap))
+        x = x+alpha*p # dangereux mais ca passe
+        r = r-alpha*Ap
+        rsnew = prod(trans(r),r)
+        if np.sqrt(rsnew[0][0]) < 10**(-10) :
+            break
+
+        p = r+(rsnew/rsold)*p
+        rsold = rsnew
+    return x
+
+
+def gaussDescente(A,b) :
+    n = len(A)
+
+    x = np.zeros((n,1))
+
+    for ligne in range(n) :
+        somme = b[ligne]
+        for colonne in range(ligne) :
+            somme -= A[ligne][colonne]*x[colonne]
+        x[ligne] = somme/A[ligne][ligne]
+    return x
+
+
+def gaussMontee(A,b) :
+    n = len(A)
+
+    x = np.zeros((n,1))
+
+    for ligne in range(n-1,-1,-1) :
+        somme = b[ligne]
+        for colonne in range(n-1,ligne,-1) :
+            somme -= A[ligne][colonne]*x[colonne]
+        x[ligne] = somme/A[ligne][ligne]
+    return x
+
+
+def precond(A) :
+    n = len(A)
+    M = np.zeros( (n,n) )
+
+    for i in range (n) :
+        if (A[i][i] == 0) :
+            M[i][i] = 0
+        else :
+            s = A[i][i]
+            for k in range (0,i) :
+                s -= M[i][k]**2
+            M[i][i] = np.sqrt(s)
+
+    for j in range (1,n) :
+        for i in range(j) :
+            if (A[j][i] == 0) :
+                M[j][i] = 0
+            s = A[j][i]
+            for k in range (0,i) :
+                s -= M[i][k]*M[j][k]
+            M[j][i] = s/M[i][i]
+
+    return M,trans(M)
+
+def resol(T,Tt,r) :
+    y = gaussDescente(T,r)
+    z = gaussMontee(Tt,y)
+    return z
+
+
+def gradient_conj_precond(A,b,x) :
+    n = len(A)
+    r = b-prod(A,x)
+    T,Tt = precond(A)
+    z = resol(T,Tt,r)
+    p = z
+    rsold = float(prod(trans(r),z))
+
+    for i in range (1,10**6) :
+        Ap = prod(A,p)
+        alpha = float(rsold/(prod(trans(p),Ap)))
+        x = x+alpha*p # dangereux mais ca passe
+        r = r-alpha*Ap
+        z = resol(T,Tt,r)
+        rsnew = float(prod(trans(r),z))
+        if np.sqrt(rsnew) < 10**(-10) :
+            break
+
+        p = z+(rsnew/rsold)*p
+        rsold = rsnew
+    return x
+
+
+##
+import numpy as np
+A1 = np.array([ [1.0, 0.0, 0.0], [2.0, 2.0, 0.0], [1.0, 1.0, 3.0] ])
+
+A2 = np.array([ [1.0, 1.0, 1.0], [0.0, 2.0, 1.0], [0.0, 0.0, 1.0] ])
+b = np.array([ [1.0], [2.0], [2.0] ])
+
+print(A1,"\n\n",A2,"\n\n",resol(A1,A2,b))
+
+
+##
+
+
+
+
+
+
+
+A = np.array([ [1.0, 2.0, 0.0], [2.0, 5.0, 1.0], [0.0, 1.0, 3.0] ])
+b = np.array([ [1.0], [2.0], [2.0] ])
+x = np.array([ [0.0], [0.0], [0.0] ])
+
+
+sol = gradient_conj(A,b,x)
+print(sol)
+
+print("\n",np.linalg.solve(A,b))
+
+sol2 = gradient_conj_precond(A,b,x)
+print("\n",sol2)
+
+
+###
+from random import randint
+import time as tmp
+
+def calc_rand_non_zero() :
+
+    '''
+    calc_rand_non_zero(...)
+
+    returns a random non zero number
+
+    Parameters
+    ----------
+
+    None
+
+    Returns
+    -------
+
+    out : returns a random non zero number
+
+    '''
+
+    i = randint(1,500)%50
+    while i ==0 :
+        i = randint(1,500)%50
+    signe = 25-randint(1,50)
+    while signe == 0 :
+        signe = 2*(0.5-randint(0,1))
+    return signe*i
+
+def generate_SPDSM(n,i):
+
+    '''
+    generate_SPDSM(...)
+
+    returns a symetrical positive definite sparse matrix of nXn dim with i non zero extra-diagonal coefficents
+
+    Parameters
+    ----------
+
+    n : positive integer wich is the size of the square matrix
+
+    i : even number of non zero extra-diagonal coefficients
+
+    Returns
+    -------
+
+    out : a symetrical positive definite sparse matrix of nXn dim with i non zero extra-diagonal coefficents
+
+
+    '''
+
+    A = np.zeros(n)
+
+    while np.count_nonzero(A) != i+n :
+
+        i = i-i%2
+        if (i < 0) or (i > n*(n+1)/2-n):
+            i = 0
+        A = np.diag([abs(calc_rand_non_zero()) for k in range(n)])
+
+        while np.count_nonzero(A) != int(i/2)+n :
+
+            line = randint(1,n-1)
+            col = randint(0,line-1)
+
+            if A[line,col] == 0 :
+
+                A[line,col] = calc_rand_non_zero()
+
+
+        A = np.dot(A,np.transpose(A))
+
+    return A
+
+def test() :
+    time = []
+    result_sans_pre = []
+    result_avec_pre = []
+    coef = 20
+    for N in range(2,1000,10) :
+        time += [N]
+        A = generate_SPDSM(N,coef)
+        b = np.ones((N,1))
+        x = np.zeros((N,1))
+
+        print("hey")
+
+        tmp1=tmp.perf_counter()
+        sol = gradient_conj(A,b,x)
+        tmp2=tmp.perf_counter()
+        result_sans_pre += [tmp2-tmp1]
+        #
+        # print("hey")
+        #
+        # tmp1=tmp.perf_counter()
+        # sol = gradient_conj_precond(A,b,x)
+        # tmp2=tmp.perf_counter()
+        # result_avec_pre += [tmp2-tmp1]
+    return time,result_sans_pre #,result_avec_pre
+
+
+
+# x,y1,y2 = test()
+x,y1 = test()
+
+##
+import matplotlib.pyplot as plt
+
+# fig = plt.subplot(3,1,1)
+
+plt.plot(x,y1,label="méthode 1")
+# plt.plot(x,y2,label="méthode 2")
+plt.legend()
+
+
+
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

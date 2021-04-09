@@ -1,0 +1,205 @@
+\hypertarget{namespacepartie1__q4}{}\doxysection{partie1\+\_\+q4 Namespace Reference}
+\label{namespacepartie1__q4}\index{partie1\_q4@{partie1\_q4}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacepartie1__q4_a4da2635bd7e9f21663ea80c2fb16f75a}{facto\+\_\+cholesky\+\_\+incomplete\+\_\+\+R\+EC}} (\mbox{\hyperlink{namespacepartie1__q4_a0dccb14c2dbb8134bc0d1aa550a7549e}{A}}, \mbox{\hyperlink{namespacepartie1__q4_afdef2a5ca8284046d6d0b195a2962b89}{T}}, \mbox{\hyperlink{namespacepartie1__q4_ad1e51632fd616e564e612e9a78ea5d4f}{i}})
+\item 
+def \mbox{\hyperlink{namespacepartie1__q4_a684413afdd9e7c7dd08118edc17e604b}{facto\+\_\+cholesky\+\_\+incomplete}} (\mbox{\hyperlink{namespacepartie1__q4_a0dccb14c2dbb8134bc0d1aa550a7549e}{A}})
+\item 
+def \mbox{\hyperlink{namespacepartie1__q4_a884b44f198785d50aea60dfd3094f160}{compare\+\_\+function}} (f1, f2)
+\item 
+def \mbox{\hyperlink{namespacepartie1__q4_ab7acb77b413a09f65e3ecb6bb50e929d}{main\+\_\+test}} (name, entree, \mbox{\hyperlink{namespacepartie1__q4_ad2a9b9c8eb48a4857ad88c4225706575}{res}}, \mbox{\hyperlink{namespacepartie1__q4_af79e0320186427b5627bb98df9f86020}{hope}})
+\item 
+def \mbox{\hyperlink{namespacepartie1__q4_af38bb86c41fb855abba3e8df2ca1cf84}{print\+\_\+summary}} (\mbox{\hyperlink{namespacepartie1__q4_a029941080a3b24f2bec71c08cd25a25b}{function\+\_\+name}}, \mbox{\hyperlink{namespacepartie1__q4_a5288b55e84dce52e5d8d47bbe8c6561a}{test\+\_\+result}}, \mbox{\hyperlink{namespacepartie1__q4_a202721f142d022cb2fed6500750ae0b1}{number\+\_\+of\+\_\+test}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{namespacepartie1__q4_a029941080a3b24f2bec71c08cd25a25b}{function\+\_\+name}} = \mbox{[}\char`\"{}facto\+\_\+cholesky\+\_\+incomplete\char`\"{}\mbox{]}
+\item 
+dictionary \mbox{\hyperlink{namespacepartie1__q4_a5288b55e84dce52e5d8d47bbe8c6561a}{test\+\_\+result}} = \{\}
+\item 
+dictionary \mbox{\hyperlink{namespacepartie1__q4_a202721f142d022cb2fed6500750ae0b1}{number\+\_\+of\+\_\+test}} = \{\}
+\item 
+\mbox{\hyperlink{namespacepartie1__q4_a0dccb14c2dbb8134bc0d1aa550a7549e}{A}} = generate\+\_\+\+S\+P\+D\+SM(5,2)
+\item 
+\mbox{\hyperlink{namespacepartie1__q4_afdef2a5ca8284046d6d0b195a2962b89}{T}} = np.\+zeros(\mbox{[}4,4\mbox{]})
+\item 
+int \mbox{\hyperlink{namespacepartie1__q4_ad1e51632fd616e564e612e9a78ea5d4f}{i}} = 0
+\item 
+\mbox{\hyperlink{namespacepartie1__q4_a671ea7b974695201ff2c75ee4acb388f}{timer}} = time.\+time()
+\item 
+int \mbox{\hyperlink{namespacepartie1__q4_a96350b059ee0e17305689e039ac23c00}{nb\+\_\+timer}} = 10
+\item 
+tuple \mbox{\hyperlink{namespacepartie1__q4_a3b93d365fc5809908828b6cb2897f2a0}{timer\+\_\+in}} = (time.\+time()-\/\mbox{\hyperlink{namespacepartie1__q4_a671ea7b974695201ff2c75ee4acb388f}{timer}})/\mbox{\hyperlink{namespacepartie1__q4_a96350b059ee0e17305689e039ac23c00}{nb\+\_\+timer}}
+\item 
+\mbox{\hyperlink{namespacepartie1__q4_a5ea4acca91489de4817228859115e253}{timer\+\_\+de}} = time.\+time()
+\item 
+list \mbox{\hyperlink{namespacepartie1__q4_ad2a9b9c8eb48a4857ad88c4225706575}{res}} = \mbox{[}\mbox{\hyperlink{namespacepartie1__q4_a684413afdd9e7c7dd08118edc17e604b}{facto\+\_\+cholesky\+\_\+incomplete}}(\mbox{\hyperlink{namespacepartie1__q4_a0dccb14c2dbb8134bc0d1aa550a7549e}{A}}),\mbox{\hyperlink{namespacepartie1__q4_a671ea7b974695201ff2c75ee4acb388f}{timer}}\mbox{]}
+\item 
+list \mbox{\hyperlink{namespacepartie1__q4_af79e0320186427b5627bb98df9f86020}{hope}} = \mbox{[}facto\+\_\+cholesky\+\_\+dense(\mbox{\hyperlink{namespacepartie1__q4_a0dccb14c2dbb8134bc0d1aa550a7549e}{A}}),True\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacepartie1__q4_a884b44f198785d50aea60dfd3094f160}\label{namespacepartie1__q4_a884b44f198785d50aea60dfd3094f160}} 
+\index{partie1\_q4@{partie1\_q4}!compare\_function@{compare\_function}}
+\index{compare\_function@{compare\_function}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{compare\_function()}{compare\_function()}}
+{\footnotesize\ttfamily def partie1\+\_\+q4.\+compare\+\_\+function (\begin{DoxyParamCaption}\item[{}]{f1,  }\item[{}]{f2 }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}compare_function(...)
+
+print a graph with the curve of time execution of function f1 and f2 applied to a symetrical positive definite sparse matrix 
+
+Parameters
+----------
+
+f1 : function 1 which can work on an symetrical positive definite sparse matrix
+
+f2 : function 2 which can work on an symetrical positive definite sparse matrix
+
+Returns
+-------
+
+out : None\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacepartie1__q4_a684413afdd9e7c7dd08118edc17e604b}\label{namespacepartie1__q4_a684413afdd9e7c7dd08118edc17e604b}} 
+\index{partie1\_q4@{partie1\_q4}!facto\_cholesky\_incomplete@{facto\_cholesky\_incomplete}}
+\index{facto\_cholesky\_incomplete@{facto\_cholesky\_incomplete}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{facto\_cholesky\_incomplete()}{facto\_cholesky\_incomplete()}}
+{\footnotesize\ttfamily def partie1\+\_\+q4.\+facto\+\_\+cholesky\+\_\+incomplete (\begin{DoxyParamCaption}\item[{}]{A }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}facto_cholesky_incomplete(...)
+
+returns the matrix of the incomplete Cholesky factorization 
+
+Parameters
+----------
+
+A : positive definite square matrix
+
+Returns
+-------
+
+out : the matrix of the incomplete Cholesky factorization
+
+Time complexity
+---------------
+
+O(2*i**2)
+
+Space complexity
+----------------
+
+O(n**2)\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacepartie1__q4_a4da2635bd7e9f21663ea80c2fb16f75a}\label{namespacepartie1__q4_a4da2635bd7e9f21663ea80c2fb16f75a}} 
+\index{partie1\_q4@{partie1\_q4}!facto\_cholesky\_incomplete\_REC@{facto\_cholesky\_incomplete\_REC}}
+\index{facto\_cholesky\_incomplete\_REC@{facto\_cholesky\_incomplete\_REC}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{facto\_cholesky\_incomplete\_REC()}{facto\_cholesky\_incomplete\_REC()}}
+{\footnotesize\ttfamily def partie1\+\_\+q4.\+facto\+\_\+cholesky\+\_\+incomplete\+\_\+\+R\+EC (\begin{DoxyParamCaption}\item[{}]{A,  }\item[{}]{T,  }\item[{}]{i }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}facto_cholesky_incomplete_REC(...)
+
+completes T with the value of tii and tji for j from 0 to i-1 of the incomplete Cholesky factorization and returns a call of itself for next index
+
+Parameters
+----------
+
+A : positive definite square matrix
+
+T : the result of incomplete Cholesky factorization
+
+i : positive integer between 0 and the dimension of A-1
+
+Returns
+-------
+
+out : itself with a call on next index\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacepartie1__q4_ab7acb77b413a09f65e3ecb6bb50e929d}\label{namespacepartie1__q4_ab7acb77b413a09f65e3ecb6bb50e929d}} 
+\index{partie1\_q4@{partie1\_q4}!main\_test@{main\_test}}
+\index{main\_test@{main\_test}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{main\_test()}{main\_test()}}
+{\footnotesize\ttfamily def partie1\+\_\+q4.\+main\+\_\+test (\begin{DoxyParamCaption}\item[{}]{name,  }\item[{}]{entree,  }\item[{}]{res,  }\item[{}]{hope }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespacepartie1__q4_af38bb86c41fb855abba3e8df2ca1cf84}\label{namespacepartie1__q4_af38bb86c41fb855abba3e8df2ca1cf84}} 
+\index{partie1\_q4@{partie1\_q4}!print\_summary@{print\_summary}}
+\index{print\_summary@{print\_summary}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{print\_summary()}{print\_summary()}}
+{\footnotesize\ttfamily def partie1\+\_\+q4.\+print\+\_\+summary (\begin{DoxyParamCaption}\item[{}]{function\+\_\+name,  }\item[{}]{test\+\_\+result,  }\item[{}]{number\+\_\+of\+\_\+test }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacepartie1__q4_a0dccb14c2dbb8134bc0d1aa550a7549e}\label{namespacepartie1__q4_a0dccb14c2dbb8134bc0d1aa550a7549e}} 
+\index{partie1\_q4@{partie1\_q4}!A@{A}}
+\index{A@{A}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{A}{A}}
+{\footnotesize\ttfamily partie1\+\_\+q4.\+A = generate\+\_\+\+S\+P\+D\+SM(5,2)}
+
+\mbox{\Hypertarget{namespacepartie1__q4_a029941080a3b24f2bec71c08cd25a25b}\label{namespacepartie1__q4_a029941080a3b24f2bec71c08cd25a25b}} 
+\index{partie1\_q4@{partie1\_q4}!function\_name@{function\_name}}
+\index{function\_name@{function\_name}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{function\_name}{function\_name}}
+{\footnotesize\ttfamily list partie1\+\_\+q4.\+function\+\_\+name = \mbox{[}\char`\"{}facto\+\_\+cholesky\+\_\+incomplete\char`\"{}\mbox{]}}
+
+\mbox{\Hypertarget{namespacepartie1__q4_af79e0320186427b5627bb98df9f86020}\label{namespacepartie1__q4_af79e0320186427b5627bb98df9f86020}} 
+\index{partie1\_q4@{partie1\_q4}!hope@{hope}}
+\index{hope@{hope}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{hope}{hope}}
+{\footnotesize\ttfamily list partie1\+\_\+q4.\+hope = \mbox{[}facto\+\_\+cholesky\+\_\+dense(\mbox{\hyperlink{namespacepartie1__q4_a0dccb14c2dbb8134bc0d1aa550a7549e}{A}}),True\mbox{]}}
+
+\mbox{\Hypertarget{namespacepartie1__q4_ad1e51632fd616e564e612e9a78ea5d4f}\label{namespacepartie1__q4_ad1e51632fd616e564e612e9a78ea5d4f}} 
+\index{partie1\_q4@{partie1\_q4}!i@{i}}
+\index{i@{i}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{i}{i}}
+{\footnotesize\ttfamily int partie1\+\_\+q4.\+i = 0}
+
+\mbox{\Hypertarget{namespacepartie1__q4_a96350b059ee0e17305689e039ac23c00}\label{namespacepartie1__q4_a96350b059ee0e17305689e039ac23c00}} 
+\index{partie1\_q4@{partie1\_q4}!nb\_timer@{nb\_timer}}
+\index{nb\_timer@{nb\_timer}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{nb\_timer}{nb\_timer}}
+{\footnotesize\ttfamily int partie1\+\_\+q4.\+nb\+\_\+timer = 10}
+
+\mbox{\Hypertarget{namespacepartie1__q4_a202721f142d022cb2fed6500750ae0b1}\label{namespacepartie1__q4_a202721f142d022cb2fed6500750ae0b1}} 
+\index{partie1\_q4@{partie1\_q4}!number\_of\_test@{number\_of\_test}}
+\index{number\_of\_test@{number\_of\_test}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{number\_of\_test}{number\_of\_test}}
+{\footnotesize\ttfamily dictionary partie1\+\_\+q4.\+number\+\_\+of\+\_\+test = \{\}}
+
+\mbox{\Hypertarget{namespacepartie1__q4_ad2a9b9c8eb48a4857ad88c4225706575}\label{namespacepartie1__q4_ad2a9b9c8eb48a4857ad88c4225706575}} 
+\index{partie1\_q4@{partie1\_q4}!res@{res}}
+\index{res@{res}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{res}{res}}
+{\footnotesize\ttfamily list partie1\+\_\+q4.\+res = \mbox{[}\mbox{\hyperlink{namespacepartie1__q4_a684413afdd9e7c7dd08118edc17e604b}{facto\+\_\+cholesky\+\_\+incomplete}}(\mbox{\hyperlink{namespacepartie1__q4_a0dccb14c2dbb8134bc0d1aa550a7549e}{A}}),\mbox{\hyperlink{namespacepartie1__q4_a671ea7b974695201ff2c75ee4acb388f}{timer}}\mbox{]}}
+
+\mbox{\Hypertarget{namespacepartie1__q4_afdef2a5ca8284046d6d0b195a2962b89}\label{namespacepartie1__q4_afdef2a5ca8284046d6d0b195a2962b89}} 
+\index{partie1\_q4@{partie1\_q4}!T@{T}}
+\index{T@{T}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{T}{T}}
+{\footnotesize\ttfamily partie1\+\_\+q4.\+T = np.\+zeros(\mbox{[}4,4\mbox{]})}
+
+\mbox{\Hypertarget{namespacepartie1__q4_a5288b55e84dce52e5d8d47bbe8c6561a}\label{namespacepartie1__q4_a5288b55e84dce52e5d8d47bbe8c6561a}} 
+\index{partie1\_q4@{partie1\_q4}!test\_result@{test\_result}}
+\index{test\_result@{test\_result}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{test\_result}{test\_result}}
+{\footnotesize\ttfamily dictionary partie1\+\_\+q4.\+test\+\_\+result = \{\}}
+
+\mbox{\Hypertarget{namespacepartie1__q4_a671ea7b974695201ff2c75ee4acb388f}\label{namespacepartie1__q4_a671ea7b974695201ff2c75ee4acb388f}} 
+\index{partie1\_q4@{partie1\_q4}!timer@{timer}}
+\index{timer@{timer}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{timer}{timer}}
+{\footnotesize\ttfamily tuple partie1\+\_\+q4.\+timer = time.\+time()}
+
+\mbox{\Hypertarget{namespacepartie1__q4_a5ea4acca91489de4817228859115e253}\label{namespacepartie1__q4_a5ea4acca91489de4817228859115e253}} 
+\index{partie1\_q4@{partie1\_q4}!timer\_de@{timer\_de}}
+\index{timer\_de@{timer\_de}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{timer\_de}{timer\_de}}
+{\footnotesize\ttfamily partie1\+\_\+q4.\+timer\+\_\+de = time.\+time()}
+
+\mbox{\Hypertarget{namespacepartie1__q4_a3b93d365fc5809908828b6cb2897f2a0}\label{namespacepartie1__q4_a3b93d365fc5809908828b6cb2897f2a0}} 
+\index{partie1\_q4@{partie1\_q4}!timer\_in@{timer\_in}}
+\index{timer\_in@{timer\_in}!partie1\_q4@{partie1\_q4}}
+\doxysubsubsection{\texorpdfstring{timer\_in}{timer\_in}}
+{\footnotesize\ttfamily tuple partie1\+\_\+q4.\+timer\+\_\+in = (time.\+time()-\/\mbox{\hyperlink{namespacepartie1__q4_a671ea7b974695201ff2c75ee4acb388f}{timer}})/\mbox{\hyperlink{namespacepartie1__q4_a96350b059ee0e17305689e039ac23c00}{nb\+\_\+timer}}}
+

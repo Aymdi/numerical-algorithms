@@ -1,0 +1,10 @@
+import numpy as np
+import copy
+
+def calc_inverse_matrice_T(T) :
+
+    res = copy.deepcopy(T)
+    res[:,:] = 1/res[:,:]
+
+    return res
+    

@@ -1,0 +1,130 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Namespace List}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Namespace Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}partie1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q1 Namespace Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Function Documentation}{5}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}calc\_ti()}{6}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}calc\_tji()}{6}{subsubsection.3.1.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.1.3}facto\_cholesky\_dense()}{7}{subsubsection.3.1.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.1.4}facto\_cholesky\_dense\_REC()}{7}{subsubsection.3.1.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.1.5}main\_test()}{8}{subsubsection.3.1.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.1.6}print\_summary()}{8}{subsubsection.3.1.1.6}%
+\contentsline {subsection}{\numberline {3.1.2}Variable Documentation}{8}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}A}{8}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}function\_name}{8}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}hope}{9}{subsubsection.3.1.2.3}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}i}{9}{subsubsection.3.1.2.4}%
+\contentsline {subsubsection}{\numberline {3.1.2.5}j}{9}{subsubsection.3.1.2.5}%
+\contentsline {subsubsection}{\numberline {3.1.2.6}number\_of\_test}{9}{subsubsection.3.1.2.6}%
+\contentsline {subsubsection}{\numberline {3.1.2.7}res}{9}{subsubsection.3.1.2.7}%
+\contentsline {subsubsection}{\numberline {3.1.2.8}T}{9}{subsubsection.3.1.2.8}%
+\contentsline {subsubsection}{\numberline {3.1.2.9}test\_result}{9}{subsubsection.3.1.2.9}%
+\contentsline {section}{\numberline {3.2}partie1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q3 Namespace Reference}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Function Documentation}{10}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}calc\_rand\_non\_zero()}{10}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}generate\_SPDSM()}{10}{subsubsection.3.2.1.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.3}print\_summary()}{11}{subsubsection.3.2.1.3}%
+\contentsline {subsection}{\numberline {3.2.2}Variable Documentation}{11}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}A}{11}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}check}{11}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}f}{11}{subsubsection.3.2.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.2.4}function\_name}{11}{subsubsection.3.2.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.2.5}i}{11}{subsubsection.3.2.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.2.6}n}{11}{subsubsection.3.2.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.2.7}nb\_test}{12}{subsubsection.3.2.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.2.8}number\_of\_test}{12}{subsubsection.3.2.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.2.9}test\_result}{12}{subsubsection.3.2.2.9}%
+\contentsline {subsubsection}{\numberline {3.2.2.10}x}{12}{subsubsection.3.2.2.10}%
+\contentsline {section}{\numberline {3.3}partie1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q4 Namespace Reference}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Function Documentation}{13}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}compare\_function()}{13}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}facto\_cholesky\_incomplete()}{13}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}facto\_cholesky\_incomplete\_REC()}{14}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}main\_test()}{14}{subsubsection.3.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.3.1.5}print\_summary()}{14}{subsubsection.3.3.1.5}%
+\contentsline {subsection}{\numberline {3.3.2}Variable Documentation}{14}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}A}{14}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}function\_name}{15}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}hope}{15}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.3.2.4}i}{15}{subsubsection.3.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.3.2.5}nb\_timer}{15}{subsubsection.3.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.3.2.6}number\_of\_test}{15}{subsubsection.3.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.3.2.7}res}{15}{subsubsection.3.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.3.2.8}T}{15}{subsubsection.3.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.3.2.9}test\_result}{15}{subsubsection.3.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.3.2.10}timer}{16}{subsubsection.3.3.2.10}%
+\contentsline {subsubsection}{\numberline {3.3.2.11}timer\_de}{16}{subsubsection.3.3.2.11}%
+\contentsline {subsubsection}{\numberline {3.3.2.12}timer\_in}{16}{subsubsection.3.3.2.12}%
+\contentsline {section}{\numberline {3.4}partie1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q5 Namespace Reference}{16}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Function Documentation}{16}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}calc\_inverse\_matrice\_T()}{16}{subsubsection.3.4.1.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.2}est\_bon\_preconditionneur()}{16}{subsubsection.3.4.1.2}%
+\contentsline {subsubsection}{\numberline {3.4.1.3}test\_est\_bon\_preconditionneur()}{17}{subsubsection.3.4.1.3}%
+\contentsline {section}{\numberline {3.5}partie2 Namespace Reference}{17}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Function Documentation}{17}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}conjugate\_gradient()}{18}{subsubsection.3.5.1.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.2}conjugate\_gradient\_preconditioned()}{18}{subsubsection.3.5.1.2}%
+\contentsline {subsubsection}{\numberline {3.5.1.3}prod()}{19}{subsubsection.3.5.1.3}%
+\contentsline {subsubsection}{\numberline {3.5.1.4}solve()}{19}{subsubsection.3.5.1.4}%
+\contentsline {subsubsection}{\numberline {3.5.1.5}test()}{20}{subsubsection.3.5.1.5}%
+\contentsline {subsubsection}{\numberline {3.5.1.6}trans()}{20}{subsubsection.3.5.1.6}%
+\contentsline {subsubsection}{\numberline {3.5.1.7}triangular\_solve\_down()}{20}{subsubsection.3.5.1.7}%
+\contentsline {subsubsection}{\numberline {3.5.1.8}triangular\_solve\_up()}{21}{subsubsection.3.5.1.8}%
+\contentsline {subsection}{\numberline {3.5.2}Variable Documentation}{21}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}A}{21}{subsubsection.3.5.2.1}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}b}{21}{subsubsection.3.5.2.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.3}fig}{21}{subsubsection.3.5.2.3}%
+\contentsline {subsubsection}{\numberline {3.5.2.4}flag}{22}{subsubsection.3.5.2.4}%
+\contentsline {subsubsection}{\numberline {3.5.2.5}label}{22}{subsubsection.3.5.2.5}%
+\contentsline {subsubsection}{\numberline {3.5.2.6}linestyle}{22}{subsubsection.3.5.2.6}%
+\contentsline {subsubsection}{\numberline {3.5.2.7}n}{22}{subsubsection.3.5.2.7}%
+\contentsline {subsubsection}{\numberline {3.5.2.8}res}{22}{subsubsection.3.5.2.8}%
+\contentsline {subsubsection}{\numberline {3.5.2.9}sol}{22}{subsubsection.3.5.2.9}%
+\contentsline {subsubsection}{\numberline {3.5.2.10}sol2}{22}{subsubsection.3.5.2.10}%
+\contentsline {subsubsection}{\numberline {3.5.2.11}T}{23}{subsubsection.3.5.2.11}%
+\contentsline {subsubsection}{\numberline {3.5.2.12}threshold}{23}{subsubsection.3.5.2.12}%
+\contentsline {subsubsection}{\numberline {3.5.2.13}Tt}{23}{subsubsection.3.5.2.13}%
+\contentsline {subsubsection}{\numberline {3.5.2.14}x}{23}{subsubsection.3.5.2.14}%
+\contentsline {subsubsection}{\numberline {3.5.2.15}y1}{23}{subsubsection.3.5.2.15}%
+\contentsline {subsubsection}{\numberline {3.5.2.16}y2}{23}{subsubsection.3.5.2.16}%
+\contentsline {section}{\numberline {3.6}partie3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q1 Namespace Reference}{23}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Function Documentation}{24}{subsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.1.1}genere\_matrice\_N()}{24}{subsubsection.3.6.1.1}%
+\contentsline {subsubsection}{\numberline {3.6.1.2}print\_summary()}{24}{subsubsection.3.6.1.2}%
+\contentsline {subsection}{\numberline {3.6.2}Variable Documentation}{24}{subsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.1}A}{25}{subsubsection.3.6.2.1}%
+\contentsline {subsubsection}{\numberline {3.6.2.2}b}{25}{subsubsection.3.6.2.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.3}error\_threshold}{25}{subsubsection.3.6.2.3}%
+\contentsline {subsubsection}{\numberline {3.6.2.4}f}{25}{subsubsection.3.6.2.4}%
+\contentsline {subsubsection}{\numberline {3.6.2.5}function\_name}{25}{subsubsection.3.6.2.5}%
+\contentsline {subsubsection}{\numberline {3.6.2.6}hope}{25}{subsubsection.3.6.2.6}%
+\contentsline {subsubsection}{\numberline {3.6.2.7}N}{25}{subsubsection.3.6.2.7}%
+\contentsline {subsubsection}{\numberline {3.6.2.8}number\_of\_test}{26}{subsubsection.3.6.2.8}%
+\contentsline {subsubsection}{\numberline {3.6.2.9}test\_result}{26}{subsubsection.3.6.2.9}%
+\contentsline {section}{\numberline {3.7}partie3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}et\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q3 Namespace Reference}{26}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Function Documentation}{26}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}affiche\_image()}{26}{subsubsection.3.7.1.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}main\_test()}{27}{subsubsection.3.7.1.2}%
+\contentsline {subsubsection}{\numberline {3.7.1.3}print\_summary()}{27}{subsubsection.3.7.1.3}%
+\contentsline {subsubsection}{\numberline {3.7.1.4}probleme\_mur\_chaud()}{27}{subsubsection.3.7.1.4}%
+\contentsline {subsubsection}{\numberline {3.7.1.5}probleme\_radiateur\_centre()}{27}{subsubsection.3.7.1.5}%
+\contentsline {subsection}{\numberline {3.7.2}Variable Documentation}{28}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}f}{28}{subsubsection.3.7.2.1}%
+\contentsline {subsubsection}{\numberline {3.7.2.2}function\_name}{28}{subsubsection.3.7.2.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.3}N}{28}{subsubsection.3.7.2.3}%
+\contentsline {subsubsection}{\numberline {3.7.2.4}number\_of\_test}{28}{subsubsection.3.7.2.4}%
+\contentsline {subsubsection}{\numberline {3.7.2.5}T}{28}{subsubsection.3.7.2.5}%
+\contentsline {subsubsection}{\numberline {3.7.2.6}Temp}{28}{subsubsection.3.7.2.6}%
+\contentsline {subsubsection}{\numberline {3.7.2.7}test\_result}{28}{subsubsection.3.7.2.7}%
+\contentsline {chapter}{\numberline {4}File Documentation}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}/home/nomprenom/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S104/is104-\/p2-\/12417/partie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}1/partie1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q1.py File Reference}{29}{section.4.1}%
+\contentsline {section}{\numberline {4.2}/home/nomprenom/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S104/is104-\/p2-\/12417/partie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}1/partie1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q3.py File Reference}{29}{section.4.2}%
+\contentsline {section}{\numberline {4.3}/home/nomprenom/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S104/is104-\/p2-\/12417/partie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}1/partie1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q4.py File Reference}{30}{section.4.3}%
+\contentsline {section}{\numberline {4.4}/home/nomprenom/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S104/is104-\/p2-\/12417/partie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}1/partie1\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q5.py File Reference}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.5}/home/nomprenom/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S104/is104-\/p2-\/12417/partie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}2/partie2.py File Reference}{31}{section.4.5}%
+\contentsline {section}{\numberline {4.6}/home/nomprenom/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S104/is104-\/p2-\/12417/partie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3/partie3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q1.py File Reference}{32}{section.4.6}%
+\contentsline {section}{\numberline {4.7}/home/nomprenom/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S104/is104-\/p2-\/12417/partie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3/partie3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}et\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}q3.py File Reference}{32}{section.4.7}%
+\contentsline {chapter}{Index}{33}{section*.34}%

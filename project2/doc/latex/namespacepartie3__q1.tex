@@ -1,0 +1,120 @@
+\hypertarget{namespacepartie3__q1}{}\doxysection{partie3\+\_\+q1 Namespace Reference}
+\label{namespacepartie3__q1}\index{partie3\_q1@{partie3\_q1}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacepartie3__q1_ad6e43055998965a7a59a0dd644a2adfb}{genere\+\_\+matrice\+\_\+N}} (\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}})
+\item 
+def \mbox{\hyperlink{namespacepartie3__q1_a1b841c30f48f11b7d9ac35574e0cef4c}{print\+\_\+summary}} (\mbox{\hyperlink{namespacepartie3__q1_aabf0b4eba44ceb34c4d1685a3eaa38de}{function\+\_\+name}}, \mbox{\hyperlink{namespacepartie3__q1_a0a04df807fc160cb2418c387ab34b704}{test\+\_\+result}}, \mbox{\hyperlink{namespacepartie3__q1_a43b96a298da6d8a1c87f48260a840e4d}{number\+\_\+of\+\_\+test}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{namespacepartie3__q1_aabf0b4eba44ceb34c4d1685a3eaa38de}{function\+\_\+name}} = \mbox{[}\char`\"{}genere\+\_\+matrice\+\_\+N\char`\"{}\mbox{]}
+\item 
+dictionary \mbox{\hyperlink{namespacepartie3__q1_a0a04df807fc160cb2418c387ab34b704}{test\+\_\+result}} = \{\}
+\item 
+dictionary \mbox{\hyperlink{namespacepartie3__q1_a43b96a298da6d8a1c87f48260a840e4d}{number\+\_\+of\+\_\+test}} = \{\}
+\item 
+int \mbox{\hyperlink{namespacepartie3__q1_a319e1bad5c11f4b297341e6eb4da5c7e}{error\+\_\+threshold}} = 10$\ast$$\ast$(-\/6)
+\item 
+int \mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}} = 1
+\item 
+def \mbox{\hyperlink{namespacepartie3__q1_abe00161a39972031097bfdd911ae298b}{f}} = \mbox{\hyperlink{namespacepartie3__q1_ad6e43055998965a7a59a0dd644a2adfb}{genere\+\_\+matrice\+\_\+N}}
+\item 
+\mbox{\hyperlink{namespacepartie3__q1_ab62f584c72237f5ddef3bedae0c1e66b}{A}}
+\item 
+\mbox{\hyperlink{namespacepartie3__q1_a18eb1579ce42ac3066db981d968f294f}{b}}
+\item 
+\mbox{\hyperlink{namespacepartie3__q1_a19255d59c2095272cc9724b458a06a4e}{hope}} = np.\+diag(\mbox{[}-\/4 for k in range(\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}}$\ast$$\ast$2)\mbox{]})+np.\+diag(\mbox{[}int((k+1)\%N!=0) for k in range(\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}}$\ast$$\ast$2-\/1)\mbox{]},1)+np.\+diag(\mbox{[}int((k+1)\%N!=0) for k in range(\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}}$\ast$$\ast$2-\/1)\mbox{]},-\/1)+np.\+diag(\mbox{[}1 for k in range(\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}}$\ast$$\ast$2-\/\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}})\mbox{]},-\/\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}})+np.\+diag(\mbox{[}1 for k in range(\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}}$\ast$$\ast$2-\/\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}})\mbox{]},\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacepartie3__q1_ad6e43055998965a7a59a0dd644a2adfb}\label{namespacepartie3__q1_ad6e43055998965a7a59a0dd644a2adfb}} 
+\index{partie3\_q1@{partie3\_q1}!genere\_matrice\_N@{genere\_matrice\_N}}
+\index{genere\_matrice\_N@{genere\_matrice\_N}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{genere\_matrice\_N()}{genere\_matrice\_N()}}
+{\footnotesize\ttfamily def partie3\+\_\+q1.\+genere\+\_\+matrice\+\_\+N (\begin{DoxyParamCaption}\item[{}]{N }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}genere_matrice_N(...)
+
+returns the matrix A and b of the linear system of the 2D heat diffusion problem on a N by N plan
+
+Parameters
+----------
+
+N : positive integer which is the size of the plan
+
+Returns
+-------
+
+out : a tuple with the matrix A as first element and the vector b as second element
+
+Space complexity
+----------------
+
+O(N**4)\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacepartie3__q1_a1b841c30f48f11b7d9ac35574e0cef4c}\label{namespacepartie3__q1_a1b841c30f48f11b7d9ac35574e0cef4c}} 
+\index{partie3\_q1@{partie3\_q1}!print\_summary@{print\_summary}}
+\index{print\_summary@{print\_summary}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{print\_summary()}{print\_summary()}}
+{\footnotesize\ttfamily def partie3\+\_\+q1.\+print\+\_\+summary (\begin{DoxyParamCaption}\item[{}]{function\+\_\+name,  }\item[{}]{test\+\_\+result,  }\item[{}]{number\+\_\+of\+\_\+test }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacepartie3__q1_ab62f584c72237f5ddef3bedae0c1e66b}\label{namespacepartie3__q1_ab62f584c72237f5ddef3bedae0c1e66b}} 
+\index{partie3\_q1@{partie3\_q1}!A@{A}}
+\index{A@{A}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{A}{A}}
+{\footnotesize\ttfamily partie3\+\_\+q1.\+A}
+
+\mbox{\Hypertarget{namespacepartie3__q1_a18eb1579ce42ac3066db981d968f294f}\label{namespacepartie3__q1_a18eb1579ce42ac3066db981d968f294f}} 
+\index{partie3\_q1@{partie3\_q1}!b@{b}}
+\index{b@{b}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{b}{b}}
+{\footnotesize\ttfamily partie3\+\_\+q1.\+b}
+
+\mbox{\Hypertarget{namespacepartie3__q1_a319e1bad5c11f4b297341e6eb4da5c7e}\label{namespacepartie3__q1_a319e1bad5c11f4b297341e6eb4da5c7e}} 
+\index{partie3\_q1@{partie3\_q1}!error\_threshold@{error\_threshold}}
+\index{error\_threshold@{error\_threshold}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{error\_threshold}{error\_threshold}}
+{\footnotesize\ttfamily int partie3\+\_\+q1.\+error\+\_\+threshold = 10$\ast$$\ast$(-\/6)}
+
+\mbox{\Hypertarget{namespacepartie3__q1_abe00161a39972031097bfdd911ae298b}\label{namespacepartie3__q1_abe00161a39972031097bfdd911ae298b}} 
+\index{partie3\_q1@{partie3\_q1}!f@{f}}
+\index{f@{f}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{f}{f}}
+{\footnotesize\ttfamily def partie3\+\_\+q1.\+f = \mbox{\hyperlink{namespacepartie3__q1_ad6e43055998965a7a59a0dd644a2adfb}{genere\+\_\+matrice\+\_\+N}}}
+
+\mbox{\Hypertarget{namespacepartie3__q1_aabf0b4eba44ceb34c4d1685a3eaa38de}\label{namespacepartie3__q1_aabf0b4eba44ceb34c4d1685a3eaa38de}} 
+\index{partie3\_q1@{partie3\_q1}!function\_name@{function\_name}}
+\index{function\_name@{function\_name}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{function\_name}{function\_name}}
+{\footnotesize\ttfamily list partie3\+\_\+q1.\+function\+\_\+name = \mbox{[}\char`\"{}genere\+\_\+matrice\+\_\+N\char`\"{}\mbox{]}}
+
+\mbox{\Hypertarget{namespacepartie3__q1_a19255d59c2095272cc9724b458a06a4e}\label{namespacepartie3__q1_a19255d59c2095272cc9724b458a06a4e}} 
+\index{partie3\_q1@{partie3\_q1}!hope@{hope}}
+\index{hope@{hope}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{hope}{hope}}
+{\footnotesize\ttfamily tuple partie3\+\_\+q1.\+hope = np.\+diag(\mbox{[}-\/4 for k in range(\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}}$\ast$$\ast$2)\mbox{]})+np.\+diag(\mbox{[}int((k+1)\%N!=0) for k in range(\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}}$\ast$$\ast$2-\/1)\mbox{]},1)+np.\+diag(\mbox{[}int((k+1)\%N!=0) for k in range(\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}}$\ast$$\ast$2-\/1)\mbox{]},-\/1)+np.\+diag(\mbox{[}1 for k in range(\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}}$\ast$$\ast$2-\/\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}})\mbox{]},-\/\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}})+np.\+diag(\mbox{[}1 for k in range(\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}}$\ast$$\ast$2-\/\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}})\mbox{]},\mbox{\hyperlink{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}{N}})}
+
+\mbox{\Hypertarget{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}\label{namespacepartie3__q1_ae20e15feff6785a065d15a4eeb1f94d3}} 
+\index{partie3\_q1@{partie3\_q1}!N@{N}}
+\index{N@{N}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{N}{N}}
+{\footnotesize\ttfamily int partie3\+\_\+q1.\+N = 1}
+
+\mbox{\Hypertarget{namespacepartie3__q1_a43b96a298da6d8a1c87f48260a840e4d}\label{namespacepartie3__q1_a43b96a298da6d8a1c87f48260a840e4d}} 
+\index{partie3\_q1@{partie3\_q1}!number\_of\_test@{number\_of\_test}}
+\index{number\_of\_test@{number\_of\_test}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{number\_of\_test}{number\_of\_test}}
+{\footnotesize\ttfamily dictionary partie3\+\_\+q1.\+number\+\_\+of\+\_\+test = \{\}}
+
+\mbox{\Hypertarget{namespacepartie3__q1_a0a04df807fc160cb2418c387ab34b704}\label{namespacepartie3__q1_a0a04df807fc160cb2418c387ab34b704}} 
+\index{partie3\_q1@{partie3\_q1}!test\_result@{test\_result}}
+\index{test\_result@{test\_result}!partie3\_q1@{partie3\_q1}}
+\doxysubsubsection{\texorpdfstring{test\_result}{test\_result}}
+{\footnotesize\ttfamily dictionary partie3\+\_\+q1.\+test\+\_\+result = \{\}}
+
