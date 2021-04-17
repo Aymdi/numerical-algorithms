@@ -31,3 +31,19 @@ The resolution of linear systems is a common problem present in many fields of r
 - Guerin Léo
 - Lamhamdi Aymane
 - Pitault Timothé
+
+## Project 3
+
+This project consists in programming an algorithm allowing to perform image compression using matrix techniques based on SVD factorization. The first part sets up the utility functions to manipulate the Householder matrices. The second and third part consist in transforming a matrix into a bidiagonal matrix then into a diagonal matrix. The last part applies these transformations to the SVD transformation image compression algorithm.
+
+### Link to the subject of the project :
+
+<http://mfaverge.vvv.enseirb-matmeca.fr/wordpress/?page_id=298>
+
+### Authors : 
+
+- Pitault Timothé
+- Meurgues Juliette
+- Guedon Mathilde	
+- Lamhamdi Aymane
+- Liard Arthur
