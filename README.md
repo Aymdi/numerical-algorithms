@@ -1,4 +1,4 @@
-# Algorithme numérique
+# Numerical Algorithms
 
 ## Project 1
 
